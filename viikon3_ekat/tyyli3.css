@@ -1,0 +1,152 @@
+.Ayuub
+{
+    padding: 20px 20px 0px 20px;
+    margin: 50px;
+width: 40%;
+min-height: 300px;
+max-height: fit-content;
+margin-left: 30% ;
+border:solid 11px rgb(255, 0, 0);
+outline: rgb(1, 5, 245) solid 5px;
+font-size: 25px;
+border-radius: 17px;
+
+}
+h1{
+    font-family: cursive;
+    text-shadow: fuchsia 3px 3px 3px;
+}
+body{
+background-color: aquamarine;
+background-image: url(https://images.unsplash.com/photo-1626677804885-381f0d53a1bb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1253&q=80);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-position:center;
+background-attachment: fixed;
+}
+.button,
+#parillinen,
+#sana,
+#etsittava,
+#kertoma,
+#potenssi,
+.t1,
+.t2,
+.t3,
+.t4,
+.t5,
+#perusluku,
+#salasana,
+#ykkos,
+#kakkos
+{
+    width: 200px;
+    height: 30px;
+    border: red solid 3px;
+    border-radius: 9px;
+    font-size: 20px;
+    
+  }
+  .button{
+    cursor: pointer;
+  }
+
+#H,
+#A,
+#F,
+#Q {
+    width: fit-content;
+    height: fit-content;
+}
+#result1,
+#result2,
+#result3,
+#result4,
+#result6,
+#result8
+ {
+    font-style: italic;
+    font-size:35px;
+    color: rgb(255, 0, 0);
+}
+#result5{
+    font-size: 20px;
+    color: black;
+    line-height: 240%;
+    word-spacing: 3px;
+}
+#result7{
+    font-style: italic;
+    font-size:35px;
+    color: rgb(5, 0, 0);
+}
+#result9{
+    font-style: italic;
+    font-size:35px;
+    color: rgb(43, 13, 211);
+}
+#result10{
+    font-style: italic;
+    font-size:40px;
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+    text-shadow: mediumblue 2px 2px 1px;
+    
+}
+#result11{
+    font-weight: bold;
+    color: black;
+    line-height: 240%;
+    word-spacing: 3px;
+}
+
+
+
+#yksi{
+    background-color: rgb(178, 236, 18);
+    color: black;
+    border:solid 11px rgb(0, 38, 255);
+    
+}
+#kaksi{
+    background-color: #f3b7b7;
+    color: rgb(54, 75, 33);
+}
+#kolme{
+    background-color: #f8f833;
+    color: rgb(25, 25, 202);
+    border:solid 11px rgb(38, 0, 255);
+}
+#nelja{
+    background-color: #B3FFB3;
+}
+#viisi{
+    background-color: #B3D1FF;
+    color: darkred;
+    border:solid 11px rgb(255, 251, 0);
+}
+#kuusi{
+    background-color: #eff30c;
+}
+#seitseman{
+    background-color: #eb7640;
+    color: gold;
+    border:solid 11px rgb(255, 230, 0);
+    font-family:cursive;
+    font-weight: bold;
+}
+#kahdeksan{
+    background-color: #32127c;
+    color: honeydew;
+}
+#yhdeksan{
+    background-color: #f381a7;
+    border:solid 11px rgb(0, 204, 255);
+}
+#kymmenen{
+    background-color: #0cf30c;
+}
+#yksitoista{
+    background-color: #0ce4f3;
+    color: maroon;
+}

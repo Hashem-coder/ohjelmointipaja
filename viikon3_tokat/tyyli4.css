@@ -1,0 +1,134 @@
+.Ayuub
+{
+    padding: 20px 20px 0px 20px;
+    margin: 50px;
+width: 50%;
+min-height: 300px;
+max-height: fit-content;
+margin-left: 25% ;
+border:solid 11px rgb(255, 0, 0);
+outline: rgb(0, 0, 0) solid 5px;
+font-size: 25px;
+
+}
+h1{
+    font-family:Verdana,Tahoma, sans-serif;
+    text-shadow: rgb(255, 0, 0) 4px 4px 3px;
+}
+body{
+background-color: rgb(235, 176, 15);
+background-image: url(https://media.istockphoto.com/vectors/seamless-texture-with-hand-drawn-hearts-for-valentines-day-womens-day-vector-id904320690?k=20&m=904320690&s=612x612&w=0&h=m9RhMEMofhM-5wBz_JFUcTc_BM4BaW6A4RbxrzyzKcI=);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-position:center;
+background-attachment: fixed;
+}
+.anna{
+    width: fit-content;
+    height: fit-content;
+    border: red solid 3px;
+    border-radius: 9px;
+    font-size: 25px;
+}
+.button{
+    width: fit-content;
+    height: fit-content;
+    border: red solid 3px;
+    border-radius: 9px;
+    font-size: 25px;
+    cursor: pointer;   
+}
+#result1{
+    color: rgb(0, 0, 0);
+    font-size:40px;
+    font-weight: bold;
+    font-family:fantasy;
+    border: red solid 5px;
+    width: 20%;
+    outline: black solid 3px;
+    text-align: center;
+    text-shadow: rgb(255, 0, 0) 3px 3px 2px;
+}
+#result3
+{
+    font-style: italic;
+    font-size:35px;
+    color: rgb(255, 0, 0);
+ 
+}
+span{
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(35, 49, 248);
+    font-weight: bold;
+    display: block;
+}
+#yksi{
+    background-color: rgb(241, 252, 143);
+}
+.w{
+    margin: 1px;
+    border-bottom: rgb(255, 4, 4) solid;
+    color: blue;
+    font-weight: bolder;
+}
+hr{
+    padding: px;
+    border: solid blue;
+}
+#kaksi{
+    background-color: #FFCCCC;
+    background-image: url(https://images.unsplash.com/photo-1608231883522-2efb1897a608?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE3fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=600&q=60);
+    background-repeat: no-repeat;
+    background-size: 70% 170%;
+    background-position:center;
+    background-attachment: fixed;
+    color:rgb(255, 254, 254);
+    /* font-weight:bolder; */
+    font-size: 35px;
+    min-height: 400px;
+}
+.numerot{
+    padding: 5px;
+    margin: 5px;
+    background-color: black;
+}
+#kolme{
+    background-color: #fcfc04;
+}
+#nelja{
+    background-color: #B3FFB3;
+    color: rgb(136, 255, 0);
+    background-image: url(https://media.istockphoto.com/vectors/cute-sketch-with-hearts-seamless-pattern-valentines-day-womans-day-vector-id912734980?k=20&m=912734980&s=612x612&w=0&h=ZzeJvaKc2ITHUUZwl4Bem6lJ3R5ziWmxKteVajA7wzI=);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position:center;
+    background-attachment: fixed;
+    font-weight:bolder;
+    font-style:oblique;
+    font-size: 35px;
+}
+#result4{
+    color: rgb(146, 250, 9);
+    font-size:40px;
+    font-weight:300;
+    /* font-family:fantasy; */
+    border: red solid 5px;
+    width: fit-content;
+    outline: black solid 3px;
+    text-align: center;
+    text-shadow: rgb(255, 0, 0) 2px 2px 1px;
+}
+#result3{
+    color: #fcfc04;
+    width: fit-content;
+    
+}
+#table, thead, td{
+    padding: 10px;
+    color: #fceb04;
+    background-color: royalblue;
+    width: 10%;
+    border: 2px solid red;
+    font-size: larger;
+    text-align: center;
+}

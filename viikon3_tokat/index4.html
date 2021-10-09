@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viikon 3 tokat harjoitukset</title>
+    <link rel="stylesheet" href="tyyli4.css">
+    <script src="javascript4.js"></script>
+</head>
+
+<body>
+
+    <section class="Ayuub" id='yksi'>
+        <h1>Tehtävä 1</h1>
+        <form class=" ">
+            <label>Tee ohjelma, jolle voi syöttää Scrabble-pelin sanan ja ohjelma laskee kirjain pisteet seuraavasti</label><br /><hr>
+            <p class="w">  A, E, I, N, S, T = 1p</p>
+            <p class="w">  O, Ä, K, L = 2p</p>  
+            <p class="w">  U, M = 3p</p> 
+            <p class="w">  Y, H, J, P, R, V = 4p</p>
+            <p class="w">  Ö, D = 7p</p>
+            <p class="w">  B, F, G = 8p</p>
+            <p class="w">  C = 10p</p>
+            <p class="w">  loput kirjaimet = 12p</p><br/>
+            <label for="parillinen">Anna sana, jonka pisteet lasketaan: </label> 
+            <input class="anna" type="text"
+                    placeholder="Annapa sana" 
+                    id="sana" 
+                    value="">
+            <button class="button" type="button" name="button" onclick="laskePisteet()">Laske pisteet </button><br />
+
+            <p id="result1"></p>
+        </form>
+    </section>
+
+    <section class="Ayuub" id='kaksi'>
+        <h1>Tehtävä 2</h1>
+        <form class=" ">
+            <label class="numerot">Tee ohjelma, joka arpoo lottonumerot (7 kpl) </label><br/><br />
+            <button class="button" type="button" name="button" onclick="arvoNumerot()">Arvo numerot</button>
+            <p id="result2"></p>
+        </form>
+    </section>
+
+    <section class="Ayuub" id='kolme'>
+        <h1>Tehtävä 3</h1>
+        <form class=" ">
+            <label>Tee ohjelma, joka muuntaa määritetyn (javascriptissä) 2-uloitteisen taulukon taulukkomuotoon
+                   Esimerkiksi:<span> [[1, 2, 1, 24], [8, 11, 9, 4], [7, 0, 7, 27], [7, 4, 28, 14], [3, 10, 26, 7]]</span> </label><br /><br />
+            <button class="button" type="button" name="button" onclick="muunnataulukko()"> Muunna taulukoksi </button>
+            <p id="result3"></p>
+        </form>
+    </section>
+
+    <section class="Ayuub" id='nelja'>
+        <h1>Tehtävä 4</h1>
+        <form class=" ">
+            <p>Tee ohjelma, joka tekee taulukon kaikista korttipakan korteista ja arpoo 5 korttia sieltä.</p>
+            <button class="button" type="button" name="button" onclick="arvoKortti() ">Arvo viisi korttia! </button>
+            <p id="result4"></p>
+        </form>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Viikon 2 ensimmäiset harjoitukset</title>
+  <link rel="stylesheet" href="tyyli1.css">
+  <script src="javascript1.js"></script>
+</head>
+
+<body class="body">
+  <section class="Ayuub" id='yksi'>
+    <h1>Tehtävä 1</h1>
+    <p>Tee ohjelma joka pyytää käyttäjältä
+      kolme numero ja laittaa ne järjestykseen</p>
+    <form class="form1" action="index.html" method="post">
+      <label for="1.Numero"> Anna 1. numero: <input type="text" id="eka" placeholder="Anna numero" value=""><br />
+      <label for="2.Numero"> Anna 2. numero: <input type="text" id="toka" placeholder="Anna numero" value=""><br />
+      <label for="3.Numero"> Anna 3. numero: <input type="text" id="kolmas" placeholder="Anna numero"value=""><br /><hr>
+      <button class="button" type="button" name="button" onclick="jarjesta()">Järjestä luvut</button>
+      <p id="t1"></p>
+    </form>
+  </section>
+
+  <section class="Ayuub" id='kaksi'>
+    <h1> Tehtävä 2</h1>
+    <form class="form2" action="index.html" method="post">
+      <label>Kirjoita ohjelma, joka ottaa vastaan 5 lukua ja etsii niistä suurimman</label><br /><hr>
+      <label for="1.Numero"> Anna 1. numero: <input type="text" id="luku01" placeholder="Anna numero" value=""><br /><hr>
+      <label for="2.Numero"> Anna 2. numero: <input type="text" id="luku02" placeholder="Anna numero" value=""><br />
+      <label for="3.Numero"> Anna 3. numero: <input type="text" id="luku03" placeholder="Anna numero"value=""><br /><hr>
+      <label for="4.Numero"> Anna 4. numero: <input type="text" id="luku04" placeholder="Anna numero"value=""><br />
+      <label for="5.Numero"> Anna 5. numero: <input type="text" id="luku05" placeholder="Anna numero"value=""><br />
+      <button class="button" type="button" name="button" onclick="etsiSuurin()">Etsi suurin numero</button>
+      <p id="t2"></p>
+    </form>
+  </section>
+
+  <section class="Ayuub" id="kolme">
+    <h1>Tehtävä 3</h1>
+    <form class="form3">
+      <label>Kirjoita ohjelma, joka kertoo, onko antamasi luku parillinen vai pariton</label><br />
+      <label for="numero">Anna luku:<label><input type="text" id="luku7" placeholder="Anna luku" value=""> <br /><hr>
+      <button class="button" type="button" name="button" onclick="Tarkasta()"> Tarkasta </button>
+      <p id="t3"></p>
+    </form>
+  </section>
+
+  <section class="Ayuub" id='nelja'>
+    <h1>Tehtävä 4</h1>
+    <form class="form4">
+      <label> Kirjoita ohjelma, joka kysyy käyttäjän ikää ja tarkistaa, mitä ajoneuvoa saa ajaa: &lt;16v - polkupyörää,
+        &lt;18v - mopoa, muutoin autoa</label><br /><br>
+      <label for="ika"> Anna käyttäjän ikä: </label><input type="text" id="ika" placeholder="Anna ikä" value=""><br /><hr>
+      <button class="button" type="button" name="button" onclick="naytaAjoneuvo()"> Näytä ajoneuvoa </button><br />
+      <p id="t4"></p>
+    </form>
+  </section>
+
+  <section class="Ayuub" id="viisi">
+    <form class="form5">
+      <h1>Tehtävä 5</h1>
+      <label>Kirjoita ohjelma, joka kääntää "Hei maailma" - tekstin valitulle kielelle (englanti, ruotsi,
+        espanja)</label></br>
+      <select id="kielet">
+        <option value="english">Englanti</option>
+        <option value="sweden">Ruotsi</option>
+        <option value="espanja">Espanja</option>
+      </select>
+      <button class="button" type="button" id="button" onclick="kaanna()">Käännä</button>
+      <p id="t5"></p>
+
+
+
+</body>
+
+</html>

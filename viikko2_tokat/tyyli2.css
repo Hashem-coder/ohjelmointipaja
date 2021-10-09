@@ -1,0 +1,164 @@
+.Ayuub
+{
+  padding: 10px 100px 10px 30px;
+  font-size: 30px;
+  position: relative, bottom 10px;
+}
+body{
+  background-color: rgb(40, 67, 190);
+  background-image: url(https://images.unsplash.com/photo-1585737655161-76ddbd569e5a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=700&q=60);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position:center;
+  background-attachment:fixed;
+}
+h1{
+  font-family:'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+  text-shadow: red 3px 3px 3px;
+  text-decoration: underline;
+}
+#yksi{
+  background-color: orange;
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position:center;
+  background-attachment: fixed;
+  height: 70%;
+  margin: auto;
+  width: 400px;
+  border-width: 7px;
+  border-color: rgb(251, 255, 0);
+  border-style: solid;
+  border-radius: 50px;
+  outline: rgb(0, 0, 0) solid 3px;
+  color: rgb(62, 8, 240);
+
+}
+#eka,
+#toka,
+#kolmas,
+.button{
+  width: 220px;
+  height: 30px;
+  border: red solid 2px;
+  border-radius: 9px;
+  font-size: 20px;
+
+}
+#result1{
+  font-style: italic;
+  font-size: 40px;
+  color: red;
+}
+#kaksi{
+  
+  background-color: #cc4040;
+  padding-bottom:150px;
+  height: 70%;
+    margin: auto;
+    width: 550px;
+  height: fit-content;
+  border-width: 7px;
+  border-color: rgb(251, 255, 0);
+  border-style: solid;
+  border-radius: 50px;
+  outline: rgb(0, 0, 0) solid 3px;
+  color: rgb(155, 226, 226);
+}
+ #luku01,
+ #luku02,
+ #luku03,
+ #luku04,
+ #luku05,
+ #luku7,
+ #vuosi,
+ #luku,
+ #viikonpaiva,
+ #kerrottava
+ {
+  width: 200px;
+  height: 25px;
+  border: rgb(36, 7, 204) solid 2px;
+  border-radius: 9px;
+  font-size: 20px;
+
+}
+#result2{
+   font-style: italic;
+  font-size:35px;
+  color: rgb(0, 0, 0);
+}
+ 
+#kolme{
+  background-image: url(https://images.unsplash.com/photo-1579600161224-cac5a2971069?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=700&q=60);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position:center;
+  background-attachment: fixed;
+    background-color: #71ee78;
+    height: 70%;
+    margin: auto;
+    width: 400px;
+    border-width: 7px;
+  border-color: rgb(255, 0, 0);
+  border-style: solid;
+  border-radius: 50px;
+  outline: rgb(0, 0, 0) solid 3px;
+  color: rgb(255, 0, 0);
+  font-weight: bolder;
+  font-size: 33px;
+}
+#result3{
+  font-style: italic;
+  font-size:40px;
+  color: red;
+  
+}
+#nelja{
+    background-color: #b32a7e;
+    height: 70%;
+    margin: auto;
+    width: 550px;
+    border-width: 7px;
+  border-color: rgb(251, 255, 0);
+  border-style: solid;
+  border-radius: 50px;
+  outline: rgb(0, 0, 0) solid 3px;
+  color: #FFFF99;
+}
+#result4{
+  font-style: italic;
+  font-size:40px;
+  color: rgb(255, 255, 255);
+}
+#viisi{
+
+    background-color: #be6f6f;
+    font-size: 40px;
+    height: 70%;
+    margin: auto;
+    width: 400px;
+    border-width: 7px;
+  border-color: rgb(251, 255, 0);
+  border-style: solid;
+  border-radius: 50px;
+  outline: rgb(0, 0, 0) solid 3px;
+  color: #000000;
+  overflow: auto;
+
+}
+#result5, table{
+  font-style: italic;
+  font-size:50px;
+  color: rgb(15, 16, 92);
+  border: solid rgb(255, 0, 0) 4px;
+  width: fit-content;
+  text-decoration: underline rgb(255, 0, 0);
+  text-shadow: red 2px 2px 1px;
+}
+.button
+{
+  font-size: 20px;
+  cursor: pointer;
+}

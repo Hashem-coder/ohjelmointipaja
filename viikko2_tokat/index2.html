@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Viikon 2 toiset harjoitukset</title>
+  <script src="javascript2.js"></script>
+  <link rel="stylesheet" href="tyyli2.css">
+</head>
+<body>
+
+  <div class="Ayuub" id="yksi">
+    <h1>Tehtävä 1 </h1>
+    <form class="w">
+      <label>Tarkista, onko antamasi luku positiivinen vai negatiivinen</label><br />
+      <label for="numero">Anna luku:<label><input type="text" id="luku" placeholder="Anna luku" value=""><br /><hr>
+          <button class="button" type="button" name="button" onclick="Tarkista()"> Tarkista </button><br />
+          <p id="result1"></p>
+    </form>
+  </div>
+
+  <section class="Ayuub" id="kaksi">
+    <h1>Tehtävä 2</h1>
+    <p>lue käyttäjän antama viikonpäivä numero ja tulostaa se sanana</p>
+    <label for="viikonpäivä"> Anna viikonpäivä numero: </label><input type="text" id="viikonpaiva" placeholder="Annapa oikea luku (1-7)" value=""><br /><hr>
+    <button class="button" type="button" name="button" onclick="muutaSanaksi()"> Muuta sanaksi </button><br />
+    <p id="result2"></p>
+  </section>
+
+  <section class="Ayuub" id="kolme">
+    <h1>Tehtävä 3</h1>
+    <p>Tarkistetaan käyttäjän syöte, onko se karkausvuosi</p>
+    <label for="vuosi"> Anna vuosiluku: </label><input type="text" id="vuosi" placeholder="Anna vuosi" value=""><br /><hr>
+    <button class="button" type="button" name="button" onclick="tarkistaKarkaus()"> Onko karkausvuosi ? </button><br />
+    <p id="result3"></p>
+  </section>
+
+  <section class="Ayuub" id="nelja">
+    <h1>Tehtävä 4</h1>
+    <p> luetaan 5 lukua, ja lasketaan ne yhteen ja tulostetaan summa ja keskiarvo.</p>
+    <label for="luku1">Anna luku 1: </label><input type="text" id="luku01" placeholder="Anna luku" value=""><br />
+    <label for="luku1">Anna luku 2: </label><input type="text" id="luku02" placeholder="Anna luku" value=""><br />
+    <label for="luku1">Anna luku 3: </label><input type="text" id="luku03" placeholder="Anna luku" value=""><br />
+    <label for="luku1">Anna luku 4: </label><input type="text" id="luku04" placeholder="Anna luku" value=""><br />
+    <label for="luku1">Anna luku 5: </label><input type="text" id="luku05" placeholder="Anna luku" value=""><br /><hr>
+    <button type="button"class="button" name="button" onclick="laskeKeskiarvo()"> Laske keskiarvo </button>
+    <p id="result4"></p>
+  </section>
+
+  <section class="Ayuub" id="viisi">
+    <h1>Tehtävä 5</h1>
+    <p>pyydä käyttäjältä lukua ja tee siitä kertotaulu.</p>
+    <label for="luku"> Anna numero : </label><input type="text" id="kerrottava" placeholder="Anna numero " value=""><br /><hr>
+    <button class="button" type="button" onclick="tee()">Tee kertotaulu </button><br />
+    <p id="result5"></p>
+
+  </section>
+</body>
+
+</html>
